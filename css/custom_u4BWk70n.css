@@ -1,0 +1,343 @@
+/* Slide 36 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-36-56d6fe0d"] */
+.slide[data-cid=slide-36-56d6fe0d] .ipad-36 {
+  margin: -10px 0 -50%;
+}
+
+/* Slide 46 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-26b482fd"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-26b482fd] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-26b482fd].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 114 (#3) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-114-c04b1013"] */
+.slide[data-cid=slide-114-c04b1013] .social-114:hover {
+  opacity: 1 !important;
+}
+.slide[data-cid=slide-114-c04b1013].whiteSlide svg {
+  fill: #202020 !important;
+  stroke: #202020 !important;
+}
+.slide[data-cid=slide-114-c04b1013]:not(.whiteSlide) svg {
+  fill: #fff !important;
+  stroke: #fff !important;
+}
+.slide[data-cid=slide-114-c04b1013] .swiper-button-next, .slide[data-cid=slide-114-c04b1013] .swiper-button-prev {
+  height: 30px;
+  width: 30px;
+  top: 120px;
+}
+.slide[data-cid=slide-114-c04b1013] .swiper-button-prev {
+  left: -60px;
+}
+.slide[data-cid=slide-114-c04b1013] .swiper-button-next {
+  right: -60px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-114-c04b1013] .swiper-button-prev {
+    left: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
+  }
+  .slide[data-cid=slide-114-c04b1013] .swiper-button-next {
+    right: calc(50% - 60px);
+    bottom: -60px;
+    top: auto;
+  }
+}
+
+/* Slide 113 (#4) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-113-07e49916"] */
+.slide[data-cid=slide-113-07e49916] .box-113 {
+  max-width: 380px;
+  min-height: 580px;
+}
+@media (max-width: 569px) {
+  .slide[data-cid=slide-113-07e49916] .box-113 {
+    max-width: 320px;
+    min-height: 440px;
+  }
+}
+.slide[data-cid=slide-113-07e49916] .thumbnail-113 img {
+  height: 60px;
+  width: 60px;
+}
+.slide[data-cid=slide-113-07e49916] .bottom-113 {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slide[data-cid=slide-113-07e49916] .bottom-113 svg {
+  fill: #ffffff;
+}
+
+/* Slide 113 (#5) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-113-204e1287"] */
+.slide[data-cid=slide-113-204e1287] .box-113 {
+  max-width: 380px;
+  min-height: 580px;
+}
+@media (max-width: 569px) {
+  .slide[data-cid=slide-113-204e1287] .box-113 {
+    max-width: 320px;
+    min-height: 440px;
+  }
+}
+.slide[data-cid=slide-113-204e1287] .thumbnail-113 img {
+  height: 60px;
+  width: 60px;
+}
+.slide[data-cid=slide-113-204e1287] .bottom-113 {
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.slide[data-cid=slide-113-204e1287] .bottom-113 svg {
+  fill: #ffffff;
+}
+
+/* Slide 110 (#6) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-110-f3643f06"] */
+.slide[data-cid=slide-110-f3643f06] .swiper-slide-110 {
+  max-width: 300px;
+}
+.slide[data-cid=slide-110-f3643f06] .box-110 {
+  background: #fff;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+}
+
+/* Slide 65 (#7) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-129beef6"] */
+.slide[data-cid=slide-65-129beef6] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-129beef6] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-129beef6] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-129beef6] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 73 (#8) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-73-ba523b26"] */
+.slide[data-cid=slide-73-ba523b26] .flex-73 {
+  padding-top: 15px;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73 .material-icons {
+  margin-bottom: 15px;
+  margin-top: 10px;
+  font-size: 36px;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73 > li:not(:last-child) {
+  margin-bottom: 20px;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73 .cell-73 {
+  padding: 30px;
+  position: relative;
+  display: block;
+  transition: 0.25s;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73 .cell-73.rounded {
+  border-radius: 6px;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73 .cell-73:hover {
+  background: #fff;
+  color: #202020;
+  opacity: 1;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border-color: transparent !important;
+}
+.slide[data-cid=slide-73-ba523b26] .flex-73:not(:hover) li:first-child > .cell-73 {
+  background: #fff;
+  color: #202020;
+  opacity: 1;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  border-color: transparent !important;
+}
+@media (min-width: 1024px) {
+  .slide[data-cid=slide-73-ba523b26] .image-73 {
+    margin: -10% 0 -3%;
+    max-width: none;
+  }
+}
+
+/* Slide 46 (#9) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-baee2735"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-baee2735] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-baee2735].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 65 (#10) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-f05289e1"] */
+.slide[data-cid=slide-65-f05289e1] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-f05289e1] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-f05289e1] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-f05289e1] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 46 (#11) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-768e10f0"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-768e10f0] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-768e10f0].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 46 (#12) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-4737bebc"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-4737bebc] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-4737bebc].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 65 (#13) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-40873859"] */
+.slide[data-cid=slide-65-40873859] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-40873859] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-40873859] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-40873859] .flex-65 .material-icons {
+    left: 0px;
+  }
+}
+
+/* Slide 117 (#14) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-117-d1769083"] */
+.slide[data-cid=slide-117-d1769083] .box-117 {
+  max-width: 320px;
+  min-height: 440px;
+  background: #fff;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.101421), 0px 1px 4px rgba(0, 0, 0, 0.101421);
+}
+.slide[data-cid=slide-117-d1769083] .bottom-117 {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+}
+
+/* Slide 46 (#15) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-bc116e25"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-bc116e25] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-bc116e25].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 32 (#16) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-32-4ab95212"] */
+@media (min-width: 1024px) {
+  .slide[data-cid=slide-32-4ab95212] .ipad-32 {
+    margin: -10% 0px -115%;
+    max-width: none;
+  }
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-32-4ab95212] .cell-32 {
+    padding-bottom: 40px;
+  }
+}
+
+/* Slide 46 (#18) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-d87a4d81"] */
+@media (max-width: 767px) {
+  .slide[data-cid=slide-46-d87a4d81] .box-46 {
+    margin-bottom: 30px;
+  }
+}
+.slide[data-cid=slide-46-d87a4d81].whiteSlide .box-46 .shadow {
+  box-shadow: none;
+}
+
+/* Slide 32 (#19) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-32-a0b59aa2"] */
+@media (min-width: 1024px) {
+  .slide[data-cid=slide-32-a0b59aa2] .ipad-32 {
+    margin: -10% 0px -115%;
+    max-width: none;
+  }
+}
+@media (max-width: 1023px) {
+  .slide[data-cid=slide-32-a0b59aa2] .cell-32 {
+    padding-bottom: 40px;
+  }
+}
+
+/* Slide 65 (#20) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-84340c70"] */
+.slide[data-cid=slide-65-84340c70] .flex.flex-65 > li {
+  position: relative;
+  padding-left: 55px;
+  padding-bottom: 30px;
+}
+.slide[data-cid=slide-65-84340c70] .flex-65 .material-icons {
+  position: absolute;
+  left: 0;
+  top: -5px;
+  font-size: 36px;
+}
+@media (max-width: 767px) {
+  .slide[data-cid=slide-65-84340c70] .flex.flex-65 > li {
+    padding-left: 60px;
+  }
+  .slide[data-cid=slide-65-84340c70] .flex-65 .material-icons {
+    left: 0px;
+  }
+}

@@ -1,0 +1,395 @@
+/* 
+Compile this file to css/custom_u4BWk70n.css using any SCSS preprocessor. 
+More information here: https://slides.gitbook.io/manual/scss
+*/
+
+@import "mixins.scss"; 
+@import "variables.scss";
+@import "variables-custom.scss";
+
+/* Slide 36 (#1) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-36-56d6fe0d"] */
+.slide[data-cid="slide-36-56d6fe0d"]{
+  .ipad-36 {
+    margin: -10px 0 -50%;
+  }
+}
+
+/* Slide 46 (#2) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-26b482fd"] */
+.slide[data-cid="slide-46-26b482fd"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 114 (#3) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-114-c04b1013"] */
+.slide[data-cid="slide-114-c04b1013"]{
+  .social-114:hover{
+    opacity: 1 !important;
+  }
+  &.whiteSlide svg{
+    fill: $default-text-color !important; 
+    stroke: $default-text-color !important; 
+  }
+  &:not(.whiteSlide) svg{ 
+    fill: $default-white-color !important;
+    stroke: $default-white-color !important; 
+  }
+  .swiper-button-next, .swiper-button-prev{
+    height:30px;
+    width:30px;
+    top: 120px;
+  }
+  .swiper-button-prev{
+    left: -60px;
+  }
+  .swiper-button-next{
+    right: -60px;
+  }
+  @include media($phablet, max) {
+    .swiper-button-prev{
+        left: calc(50% - 60px);
+        bottom: -60px;
+        top: auto;    
+    }
+    .swiper-button-next{
+        right: calc(50% - 60px);
+        bottom: -60px;
+        top: auto;    
+    }   
+  }
+}
+
+/* Slide 113 (#4) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-113-07e49916"] */
+.slide[data-cid="slide-113-07e49916"]{
+  .box-113{
+    max-width: 380px;
+    min-height:580px;
+    @include media(570px, max) {
+      max-width: 320px;
+      min-height: 440px;
+    }
+  }
+  .thumbnail-113 {
+    img{ 
+      height: 60px;
+      width: 60px;
+    }
+  } 
+  .bottom-113{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    svg{
+      fill: #ffffff;
+    }
+  }
+}
+
+/* Slide 113 (#5) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-113-204e1287"] */
+.slide[data-cid="slide-113-204e1287"]{
+  .box-113{
+    max-width: 380px;
+    min-height:580px;
+    @include media(570px, max) {
+      max-width: 320px;
+      min-height: 440px;
+    }
+  }
+  .thumbnail-113 {
+    img{ 
+      height: 60px;
+      width: 60px;
+    }
+  } 
+  .bottom-113{
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translateX(-50%);
+    svg{
+      fill: #ffffff;
+    }
+  }
+}
+
+/* Slide 110 (#6) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-110-f3643f06"] */
+.slide[data-cid="slide-110-f3643f06"]{
+  .swiper-slide-110{
+    max-width: 300px;
+  }
+  .box-110{
+    background: $default-white-color;
+    box-shadow: $large-shadow;
+  }
+}
+
+/* Slide 65 (#7) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-129beef6"] */
+.slide[data-cid="slide-65-129beef6"]{
+  .flex.flex-65 > li {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+  .flex-65 .material-icons {
+    position:absolute;
+    left: 0;
+    top: -5px;
+    font-size: 36px;
+  }
+  @include media($phablet, max) {
+    .flex.flex-65 > li {
+      padding-left: 60px;
+    }
+    .flex-65 .material-icons {
+      left: 0px;
+    }
+  }
+}
+
+/* Slide 73 (#8) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-73-ba523b26"] */
+.slide[data-cid="slide-73-ba523b26"]{
+  .flex-73 {
+    padding-top: 15px;
+    .material-icons {
+      margin-bottom: 15px;
+      margin-top: 10px;
+      font-size: 36px;
+    }
+    >li:not(:last-child) {
+      margin-bottom: 20px;
+    }
+    .cell-73 {
+      padding: 30px;
+      position: relative;
+      display: block;
+      transition: 0.25s;
+      &.rounded {
+        border-radius: $rounded-border-radius;
+      }
+      &:hover {
+        background: #fff;
+        color: $default-text-color;
+        opacity: 1;
+        box-shadow: $large-shadow;
+        border-color: transparent !important;
+      }
+    }
+    &:not(:hover) li:first-child > .cell-73 {
+      background: #fff;
+      color: $default-text-color;
+      opacity: 1;
+      box-shadow: $large-shadow;
+      border-color: transparent !important;
+    }
+  }
+  @include media($tablet, min) {
+    .image-73 {
+      margin: -10% 0 -3%;
+      max-width: none;
+    }
+  }
+}
+
+/* Slide 46 (#9) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-baee2735"] */
+.slide[data-cid="slide-46-baee2735"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 65 (#10) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-f05289e1"] */
+.slide[data-cid="slide-65-f05289e1"]{
+  .flex.flex-65 > li {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+  .flex-65 .material-icons {
+    position:absolute;
+    left: 0;
+    top: -5px;
+    font-size: 36px;
+  }
+  @include media($phablet, max) {
+    .flex.flex-65 > li {
+      padding-left: 60px;
+    }
+    .flex-65 .material-icons {
+      left: 0px;
+    }
+  }
+}
+
+/* Slide 46 (#11) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-768e10f0"] */
+.slide[data-cid="slide-46-768e10f0"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 46 (#12) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-4737bebc"] */
+.slide[data-cid="slide-46-4737bebc"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 65 (#13) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-40873859"] */
+.slide[data-cid="slide-65-40873859"]{
+  .flex.flex-65 > li {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+  .flex-65 .material-icons {
+    position:absolute;
+    left: 0;
+    top: -5px;
+    font-size: 36px;
+  }
+  @include media($phablet, max) {
+    .flex.flex-65 > li {
+      padding-left: 60px;
+    }
+    .flex-65 .material-icons {
+      left: 0px;
+    }
+  }
+}
+
+/* Slide 117 (#14) */
+
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-117-d1769083"] */
+.slide[data-cid="slide-117-d1769083"]{
+  .box-117{
+    max-width: 320px;
+    min-height:440px;
+    background: $default-white-color;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.101421), 0px 1px 4px rgba(0, 0, 0, 0.101421); 
+  }
+  .bottom-117{ 
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+  }
+}
+
+/* Slide 46 (#15) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-bc116e25"] */
+.slide[data-cid="slide-46-bc116e25"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 32 (#16) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-32-4ab95212"] */
+.slide[data-cid="slide-32-4ab95212"]{
+  @include media($tablet, min) {
+    .ipad-32 {
+      margin: -10% 0px -115%;
+      max-width: none;
+    }
+  }
+  @include media($tablet, max) {
+    .cell-32 {
+      padding-bottom: 40px;
+    }
+  }
+}
+
+/* Slide 46 (#18) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-46-d87a4d81"] */
+.slide[data-cid="slide-46-d87a4d81"]{
+  @include media($phablet, max) {
+    .box-46 {
+      margin-bottom: 30px;
+    }
+  }
+  &.whiteSlide .box-46 .shadow {
+    box-shadow: none;
+  }
+}
+
+/* Slide 32 (#19) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-32-a0b59aa2"] */
+.slide[data-cid="slide-32-a0b59aa2"]{
+  @include media($tablet, min) {
+    .ipad-32 {
+      margin: -10% 0px -115%;
+      max-width: none;
+    }
+  }
+  @include media($tablet, max) {
+    .cell-32 {
+      padding-bottom: 40px;
+    }
+  }
+}
+
+/* Slide 65 (#20) */
+/* To restrict styles to the current slide, panel, or example use .slide[data-cid="slide-65-84340c70"] */
+.slide[data-cid="slide-65-84340c70"]{
+  .flex.flex-65 > li {
+    position: relative;
+    padding-left: 55px;
+    padding-bottom: 30px;
+  }
+  .flex-65 .material-icons {
+    position:absolute;
+    left: 0;
+    top: -5px;
+    font-size: 36px;
+  }
+  @include media($phablet, max) {
+    .flex.flex-65 > li {
+      padding-left: 60px;
+    }
+    .flex-65 .material-icons {
+      left: 0px;
+    }
+  }
+}
