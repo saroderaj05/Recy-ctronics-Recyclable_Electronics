@@ -1,5 +1,3 @@
-# Recy-ctronics-Recyclable_Electronics
-
 # Recy-ctronics: Designing Fully Recyclable Electronics
 
 Welcome to the Recy-ctronics repository! This project introduces an innovative approach to creating fully recyclable electronics using polyvinyl alcohol (PVA) and liquid metal, focusing on minimizing environmental impact.
